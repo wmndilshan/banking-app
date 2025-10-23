@@ -328,3 +328,8 @@ declare interface getBankProps {
 declare interface getBankByAccountIdProps {
   accountId: string;
 }
+
+declare interface getBankProps2 {
+  userId: string;
+  userName: string;
+}
